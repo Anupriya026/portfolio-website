@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ecf0f1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h2 {
+    margin-top: 0;
+}
+
+.details {
+    flex: 1;
+    margin-left: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+span{
+
+    color: orange;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  nav ul li a {
+
+    color: #070606;
+    text-decoration: none;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+    border-right: 2px solid #111111; /* Add a border between list items */
+    padding-right: 20px; /* Add padding to create space between text and border */
+}
+
+nav ul li:last-child {
+    border-right: none; /* Remove border from the last list item */
+}
